@@ -1,0 +1,62 @@
+{
+  "volumen": {
+    "documentos": 1244,
+    "movimientos": 3066
+  },
+  "trazabilidad": {
+    "busquedas": 500,
+    "ubicados_completos": 500,
+    "porcentaje_ubicados": 100.0,
+    "perdidos": 0,
+    "p50_ms": 6.2,
+    "p95_ms": 9.6
+  },
+  "rendimiento": {
+    "ping": {
+      "pg": {
+        "p50": 0.9,
+        "p95": 2.9
+      },
+      "mongo": {
+        "p50": 0.9,
+        "p95": 1.5
+      },
+      "neo4j": {
+        "p50": 3.7,
+        "p95": 5.2
+      }
+    },
+    "puntual_id": {
+      "pg": {
+        "p50": 1.0,
+        "p95": 1.6
+      },
+      "mongo": {
+        "p50": 2.8,
+        "p95": 13.5
+      },
+      "neo4j": {
+        "p50": 2.9,
+        "p95": 4.1
+      }
+    },
+    "compleja": {
+      "pg": {
+        "p50": 2.5,
+        "p95": 2.9
+      },
+      "mongo": {
+        "p50": 3.2,
+        "p95": 3.6
+      },
+      "neo4j": {
+        "p50": 3.9,
+        "p95": 7.5
+      },
+      "tres_bases": {
+        "p50": 8.3,
+        "p95": 10.5
+      }
+    }
+  }
+}
